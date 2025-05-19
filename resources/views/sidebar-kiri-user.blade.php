@@ -20,10 +20,21 @@
        {{ Request::routeIs('ujian.user') ? 'text-[#1d4ed8]' : 'text-gray-600' }}">
       <div class="w-10 h-10 rounded grid place-items-center 
         {{ Request::routeIs('ujian.user') ? 'bg-[#1d4ed8] text-white' : 'bg-gray-200' }}">
-        📘
+        📝
       </div>
       <span>Ujian</span>
     </a>
+    <!-- Modul -->
+    <a href="{{ route('ujian.user') }}"
+       class="flex items-center space-x-2 font-medium
+       {{ Request::routeIs('ujian.user') ? 'text-[#1d4ed8]' : 'text-gray-600' }}">
+      <div class="w-10 h-10 rounded grid place-items-center 
+        {{ Request::routeIs('ujian.user') ? 'bg-[#1d4ed8] text-white' : 'bg-gray-200' }}">
+        📚
+      </div>
+      <span>Modul</span>
+    </a>
+
 
     <!-- Sertifikat -->
     <a href=""
